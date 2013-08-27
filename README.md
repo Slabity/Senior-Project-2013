@@ -1,7 +1,9 @@
 Senior-Project-2013
 =========
 
-Platformer Game created using SDL and C++
+Platformer Game created using SDL, OpenGL, and C++
+
+This project is no longer maintained. It uses a deprecated version of both SDL (1.2) and OpenGL (1.x), along with some lesser quality C++ formatting. Please feel free to fork or use any available code for personal projects.
 
 Installation
 =========
