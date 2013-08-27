@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_H	Application.h	2;"	d
+Application	Application.h	/^class Application {$/;"	c
+BOUNCE	CollisionController.h	/^        BOUNCE$/;"	e	enum:CollisionController::__anon2
+CAMERA_H	Camera.h	2;"	d
+CLIP	CollisionController.h	/^        CLIP,$/;"	e	enum:CollisionController::__anon2
+COLLISIONCONTROLLER_H	CollisionController.h	2;"	d
+Camera	Camera.cpp	/^Camera::Camera()$/;"	f	class:Camera
+Camera	Camera.cpp	/^Camera::Camera(Vector2d position)$/;"	f	class:Camera
+Camera	Camera.h	/^class Camera {$/;"	c
+CollisionController	CollisionController.cpp	/^CollisionController::CollisionController() {}$/;"	f	class:CollisionController
+CollisionController	CollisionController.h	/^class CollisionController {$/;"	c
+CollisionType	CollisionController.h	/^    } CollisionType;$/;"	t	class:CollisionController	typeref:enum:CollisionController::__anon2
+CrossProduct	Vector2d.cpp	/^float Vector2d::CrossProduct(const Vector2d &a, const Vector2d &b)$/;"	f	class:Vector2d
+DAMAGE	CollisionController.h	/^        DAMAGE,$/;"	e	enum:CollisionController::__anon2
+DAMPING	Camera.h	/^const double DAMPING   = 5.0;$/;"	v
+DotProduct	Vector2d.cpp	/^float Vector2d::DotProduct(const Vector2d &a, const Vector2d &b)$/;"	f	class:Vector2d
+FPS	Application.cpp	/^const unsigned int FPS    = 60;$/;"	v
+GetIntersect	Vector2d.cpp	/^Vector2d Vector2d::GetIntersect(const Vector2d &aa, const Vector2d &ab, const Vector2d &ba, const Vector2d &bb)$/;"	f	class:Vector2d
+HEIGHT	Application.cpp	/^const unsigned int HEIGHT = 1080;$/;"	v
+IMAGE_H	Image.h	2;"	d
+Image	Image.cpp	/^Image::Image(char* filename)$/;"	f	class:Image
+Image	Image.h	/^class Image {$/;"	c
+Intersect	Vector2d.cpp	/^bool Vector2d::Intersect(const Vector2d &aa, const Vector2d &ab, const Vector2d &ba, const Vector2d &bb)$/;"	f	class:Vector2d
+MAX_SPEED	Camera.h	/^const double MAX_SPEED = 100.0;$/;"	v
+Magnitude	Vector2d.cpp	/^float Vector2d::Magnitude(const Vector2d &v)$/;"	f	class:Vector2d
+Mouse	Application.h	/^} Mouse;$/;"	t	typeref:struct:__anon1
+Normal	Vector2d.cpp	/^Vector2d Vector2d::Normal(const Vector2d &v)$/;"	f	class:Vector2d
+PLAYER	CollisionController.h	/^        PLAYER,$/;"	e	enum:CollisionController::__anon2
+PLAYER_H	Player.h	2;"	d
+POLYGON_H	Polygon.h	2;"	d
+PROTOSCENE_H	PrototypeScene.h	2;"	d
+Perpendicular	Vector2d.cpp	/^Vector2d Vector2d::Perpendicular(const Vector2d &v)$/;"	f	class:Vector2d
+Player	Player.cpp	/^Player::Player(Vector2d position, std::vector<Polygon*> *platforms)$/;"	f	class:Player
+Player	Player.h	/^class Player {$/;"	c
+Polygon	Polygon.cpp	/^Polygon::Polygon()$/;"	f	class:Polygon
+Polygon	Polygon.h	/^class Polygon {$/;"	c
+PrototypeScene	PrototypeScene.cpp	/^PrototypeScene::PrototypeScene() : Scene(),$/;"	f	class:PrototypeScene
+PrototypeScene	PrototypeScene.h	/^class PrototypeScene : public Scene {$/;"	c
+Rectangle	CollisionController.h	/^    } Rectangle;$/;"	t	class:CollisionController	typeref:struct:CollisionController::__anon3
+SCENEOBJECT_H	SceneObject.h	2;"	d
+SCENE_H	Scene.h	2;"	d
+Scene	Scene.h	/^class Scene {$/;"	c
+SceneObject	SceneObject.cpp	/^SceneObject::SceneObject() {}$/;"	f	class:SceneObject
+SceneObject	SceneObject.h	/^class SceneObject {$/;"	c
+VERTEX_H	Vector2d.h	2;"	d
+Vector2d	Vector2d.cpp	/^Vector2d::Vector2d()$/;"	f	class:Vector2d
+Vector2d	Vector2d.cpp	/^Vector2d::Vector2d(float sourceX, float sourceY)$/;"	f	class:Vector2d
+Vector2d	Vector2d.h	/^class Vector2d {$/;"	c
+WIDTH	Application.cpp	/^const unsigned int WIDTH  = 1920;$/;"	v
+_SDLMain_h_	Mac/SDLMain.h	9;"	d
+add	Polygon.cpp	/^void Polygon::add(const Vector2d newPoint)$/;"	f	class:Polygon
+bottomRight	CollisionController.h	/^        Vector2d bottomRight;$/;"	m	struct:CollisionController::__anon3
+castRay	Polygon.cpp	/^Vector2d Polygon::castRay(Vector2d rayStart, Vector2d rayEnd)$/;"	f	class:Polygon
+checkCollision	SceneObject.cpp	/^void SceneObject::checkCollision(std::vector<SceneObject*>) {}$/;"	f	class:SceneObject
+clear	Polygon.cpp	/^void Polygon::clear()$/;"	f	class:Polygon
+draw	SceneObject.cpp	/^void SceneObject::draw() {}$/;"	f	class:SceneObject
+drawImage	Image.cpp	/^void Image::drawImage(Vector2d pos)$/;"	f	class:Image
+execute	Application.cpp	/^void Application::execute()$/;"	f	class:Application
+getAcceleration	Player.cpp	/^Vector2d Player::getAcceleration() const { return m_Acceleration; }$/;"	f	class:Player
+getCollisionType	CollisionController.cpp	/^CollisionController::CollisionType CollisionController::getCollisionType() const$/;"	f	class:CollisionController
+getHeight	Image.cpp	/^unsigned int Image::getHeight()$/;"	f	class:Image
+getPoly	CollisionController.cpp	/^Polygon CollisionController::getPoly() const$/;"	f	class:CollisionController
+getPosition	Camera.cpp	/^Vector2d Camera::getPosition()$/;"	f	class:Camera
+getPosition	Player.cpp	/^Vector2d Player::getPosition() const { return m_Position; }$/;"	f	class:Player
+getPosition	Polygon.cpp	/^Vector2d Polygon::getPosition() const$/;"	f	class:Polygon
+getRectangle	CollisionController.cpp	/^CollisionController::Rectangle CollisionController::getRectangle() const$/;"	f	class:CollisionController
+getVelocity	Player.cpp	/^Vector2d Player::getVelocity() const { return m_Velocity; }$/;"	f	class:Player
+getWidth	Image.cpp	/^unsigned int Image::getWidth()$/;"	f	class:Image
+grahamScan	Polygon.cpp	/^Polygon Polygon::grahamScan(const Polygon &inputPoly)$/;"	f	class:Polygon
+initialize	Application.cpp	/^void Application::initialize()$/;"	f	class:Application
+m_Acceleration	Player.h	/^    Vector2d m_Acceleration;$/;"	m	class:Player
+m_Camera	PrototypeScene.h	/^    Camera m_Camera;$/;"	m	class:PrototypeScene
+m_CollisionType	CollisionController.h	/^    CollisionType m_CollisionType;$/;"	m	class:CollisionController
+m_CurrentScene	Application.h	/^    Scene* m_CurrentScene;$/;"	m	class:Application
+m_Event	Application.h	/^    SDL_Event m_Event;$/;"	m	class:Application
+m_Heading	Camera.h	/^    Vector2d m_Heading;$/;"	m	class:Camera
+m_Height	Image.h	/^    int m_Height;$/;"	m	class:Image
+m_Mink	PrototypeScene.h	/^    Polygon m_Mink;$/;"	m	class:PrototypeScene
+m_PauseLatch	PrototypeScene.h	/^    bool m_PauseLatch;$/;"	m	class:PrototypeScene
+m_Paused	PrototypeScene.h	/^    bool m_Paused;$/;"	m	class:PrototypeScene
+m_Platform	PrototypeScene.h	/^    Polygon m_Platform;$/;"	m	class:PrototypeScene
+m_Platforms	Player.h	/^    std::vector<Polygon*> *m_Platforms;$/;"	m	class:Player
+m_Player	PrototypeScene.h	/^    Player m_Player;$/;"	m	class:PrototypeScene
+m_PlayerVel	PrototypeScene.h	/^    Vector2d m_PlayerVel; $/;"	m	class:PrototypeScene
+m_Points	Polygon.h	/^    std::vector<Vector2d> m_Points;$/;"	m	class:Polygon
+m_Poly	CollisionController.h	/^    Polygon m_Poly;$/;"	m	class:CollisionController
+m_Polygon	Player.h	/^    Polygon m_Polygon;$/;"	m	class:Player
+m_Position	Camera.h	/^    Vector2d m_Position;$/;"	m	class:Camera
+m_Position	Player.h	/^    Vector2d m_Position;$/;"	m	class:Player
+m_Position	Polygon.h	/^    Vector2d m_Position;$/;"	m	class:Polygon
+m_Quit	Application.h	/^    bool m_Quit;$/;"	m	class:Application
+m_Rectangle	CollisionController.h	/^    Rectangle m_Rectangle;$/;"	m	class:CollisionController
+m_TextureID	Image.h	/^    GLuint m_TextureID;$/;"	m	class:Image
+m_Timer	Application.h	/^    unsigned long m_Timer;$/;"	m	class:Application
+m_UpdateObjects	PrototypeScene.h	/^    std::vector<Polygon*> m_UpdateObjects;$/;"	m	class:PrototypeScene
+m_Velocity	Camera.h	/^    Vector2d m_Velocity;$/;"	m	class:Camera
+m_Velocity	Player.h	/^    Vector2d m_Velocity;$/;"	m	class:Player
+m_Width	Image.h	/^    int m_Width;$/;"	m	class:Image
+main	main.cpp	/^int main(int argv, char** argc)$/;"	f
+minkowskiDifference	Polygon.cpp	/^Polygon Polygon::minkowskiDifference(const Polygon &a, const Polygon &b)$/;"	f	class:Polygon
+operator *	Vector2d.cpp	/^Vector2d Vector2d::operator*(const Vector2d &v) const$/;"	f	class:Vector2d
+operator *	Vector2d.cpp	/^Vector2d Vector2d::operator*(const float& scale) const$/;"	f	class:Vector2d
+operator +	Vector2d.cpp	/^Vector2d Vector2d::operator+(const Vector2d &v) const$/;"	f	class:Vector2d
+operator -	Vector2d.cpp	/^Vector2d Vector2d::operator-() const$/;"	f	class:Vector2d
+operator -	Vector2d.cpp	/^Vector2d Vector2d::operator-(const Vector2d &v) const$/;"	f	class:Vector2d
+operator /	Vector2d.cpp	/^Vector2d Vector2d::operator\/(const Vector2d &v) const$/;"	f	class:Vector2d
+operator /	Vector2d.cpp	/^Vector2d Vector2d::operator\/(const float& scale) const$/;"	f	class:Vector2d
+operator =	Polygon.cpp	/^Polygon& Polygon::operator=(const Polygon &b)$/;"	f	class:Polygon
+operator ==	Vector2d.cpp	/^bool Vector2d::operator==(const Vector2d &v) const$/;"	f	class:Vector2d
+operator []	Polygon.cpp	/^Vector2d Polygon::operator[](const unsigned int index) const$/;"	f	class:Polygon
+operator []	Polygon.cpp	/^Vector2d& Polygon::operator[](const unsigned int index)$/;"	f	class:Polygon
+platformCollision	Player.cpp	/^void Player::platformCollision(const Polygon &platform)$/;"	f	class:Player
+position	Application.h	/^    Vector2d position;$/;"	m	struct:__anon1
+pressed	Application.h	/^    bool pressed;$/;"	m	struct:__anon1
+quit	Application.cpp	/^void Application::quit()$/;"	f	class:Application
+remove	Polygon.cpp	/^void Polygon::remove(unsigned int index)$/;"	f	class:Polygon
+render	Player.cpp	/^void Player::render()$/;"	f	class:Player
+render	Polygon.cpp	/^void Polygon::render() const$/;"	f	class:Polygon
+s_Keyboard	Application.cpp	/^Uint8* Application::s_Keyboard = NULL;$/;"	m	class:Application	file:
+s_Keyboard	Application.h	/^    static Uint8* s_Keyboard;$/;"	m	class:Application
+s_Mouse	Application.cpp	/^Mouse Application::s_Mouse;$/;"	m	class:Application	file:
+s_Mouse	Application.h	/^    static Mouse s_Mouse;$/;"	m	class:Application
+s_Screen	Application.cpp	/^SDL_Surface* Application::s_Screen = NULL;$/;"	m	class:Application	file:
+s_Screen	Application.h	/^    static SDL_Surface* s_Screen;$/;"	m	class:Application
+sceneEvents	PrototypeScene.cpp	/^void PrototypeScene::sceneEvents()$/;"	f	class:PrototypeScene
+sceneEvents	Scene.cpp	/^void Scene::sceneEvents() {}$/;"	f	class:Scene
+sceneRender	PrototypeScene.cpp	/^void PrototypeScene::sceneRender()$/;"	f	class:PrototypeScene
+sceneRender	Scene.cpp	/^void Scene::sceneRender() {}$/;"	f	class:Scene
+sceneUpdate	PrototypeScene.cpp	/^void PrototypeScene::sceneUpdate()$/;"	f	class:PrototypeScene
+sceneUpdate	Scene.cpp	/^void Scene::sceneUpdate() {}$/;"	f	class:Scene
+setAcceleration	Player.cpp	/^void Player::setAcceleration(const Vector2d acceleration) { m_Acceleration = acceleration; }$/;"	f	class:Player
+setCollisionType	CollisionController.cpp	/^void CollisionController::setCollisionType(const CollisionType input)$/;"	f	class:CollisionController
+setHeading	Camera.cpp	/^void Camera::setHeading(Vector2d heading)$/;"	f	class:Camera
+setPoly	CollisionController.cpp	/^void CollisionController::setPoly(const Polygon input)$/;"	f	class:CollisionController
+setPosition	Player.cpp	/^void Player::setPosition(const Vector2d position) { m_Position = position; }$/;"	f	class:Player
+setPosition	Polygon.cpp	/^void Polygon::setPosition(Vector2d position)$/;"	f	class:Polygon
+setVelocity	Player.cpp	/^void Player::setVelocity(const Vector2d velocity) { m_Velocity = velocity; }$/;"	f	class:Player
+size	Polygon.cpp	/^unsigned int Polygon::size() const$/;"	f	class:Polygon
+topLeft	CollisionController.h	/^        Vector2d topLeft;$/;"	m	struct:CollisionController::__anon3
+update	Camera.cpp	/^void Camera::update()$/;"	f	class:Camera
+update	Player.cpp	/^void Player::update()$/;"	f	class:Player
+update	SceneObject.cpp	/^void SceneObject::update() {}$/;"	f	class:SceneObject
+updateEvents	Application.cpp	/^void Application::updateEvents()$/;"	f	class:Application
+updateScene	Application.cpp	/^void Application::updateScene()$/;"	f	class:Application
+updateScreen	Application.cpp	/^void Application::updateScreen()$/;"	f	class:Application
+x	Vector2d.h	/^    float x;$/;"	m	class:Vector2d
+y	Vector2d.h	/^    float y;$/;"	m	class:Vector2d
+~Image	Image.cpp	/^Image::~Image() {$/;"	f	class:Image
+~Player	Player.cpp	/^Player::~Player() {}$/;"	f	class:Player
+~PrototypeScene	PrototypeScene.cpp	/^PrototypeScene::~PrototypeScene() {}$/;"	f	class:PrototypeScene
+~SceneObject	SceneObject.cpp	/^SceneObject::~SceneObject() {}$/;"	f	class:SceneObject
